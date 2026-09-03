@@ -72,6 +72,4 @@ Then open the local URL Streamlit prints (typically `http://localhost:8501`) in 
 - Skill matching is keyword-based (substring match against a fixed skill list), so results depend on how skills are phrased in the resume.
 - The required-skills mapping per category is a static, curated list defined in `app.py` and can be edited directly to add or adjust categories/skills.
 
-## License
 
-No license specified. Add a `LICENSE` file if you intend to make usage terms explicit.
