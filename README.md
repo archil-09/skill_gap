@@ -1,6 +1,6 @@
 # Skill Gap — Resume Category Prediction & Skill Gap Analyzer
 
-A Streamlit app that takes an uploaded resume (PDF, DOCX, or TXT), predicts the most likely job category using a trained ML classifier, and highlights which skills typically expected for that category are missing from the resume.
+A Streamlit app that takes an uploaded resume (PDF, DOCX, or TXT), predicts the mostt likely job category using a trained ML classifier, and highlights which skills typically expected for that category are missing from the resume.
 use this link to access https://skillga-vtn87igj9rd6towbxcap5x.streamlit.app/
 ## How it works
 
