@@ -3,7 +3,6 @@
 A Streamlit app that takes an uploaded resume (PDF, DOCX, or TXT), predicts the mostt likely job category using a trained ML classifier, and highlights which skills typically expected for that category are missing from the resume.
 use this link to access https://skillga-vtn87igj9rd6towbxcap5x.streamlit.app/
 ## How it works
-
 1. **Upload** — the user uploads a resume in `.pdf`, `.docx`, or `.txt` format.
 2. **Text extraction** — the app pulls raw text out of the file (`PyPDF2` for PDFs, `python-docx` for Word files, plain decoding for text files).
 3. **Cleaning** — the resume text is cleaned (URLs, hashtags, mentions, and punctuation stripped) and tokenized with NLTK, with stopwords removed.
